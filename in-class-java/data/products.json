@@ -1,0 +1,141 @@
+[{
+	"name": "dodecahedron",
+	"price": 2.95,
+	"description": "This gem is very rare",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "hpritscher1@yahoo.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-01.gif"
+	}]
+}, {
+	"name": "Diamond",
+	"price": 500,
+	"description": "This gem is a cool gem!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-02.gif"
+	}]
+}, {
+	"name": "Ruby",
+	"price": 50,
+	"description": "This gem is sick nasty",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-03.gif"
+	}]
+}, {
+	"name": "Emerald",
+	"price": 2000,
+	"description": "This gem is extra clean!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-04.gif"
+	}]
+}, {
+	"name": "Saphire",
+	"price": 50000,
+	"description": "This gem is a piece of art!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-05.gif"
+	}]
+}, {
+	"name": "Boulder",
+	"price": 0.7,
+	"description": "This gem is just a boulder but it is a nice one!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-06.gif"
+	}]
+}, {
+	"name": "Little Pebble",
+	"price": 1,
+	"description": "This gem is the best little pebble on the market!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-07.gif"
+	}]
+}, {
+	"name": "skipping stone",
+	"price": 10000,
+	"description": "This gem skips harder and longer!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-08.gif"
+	}]
+}, {
+	"name": "Marble",
+	"price": 300,
+	"description": "This gem is great for countertops!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-09.gif"
+	}]
+}, {
+	"name": "Stone",
+	"price": 500,
+	"description": "This gem is pure stone!",
+	"reviews": [{
+		"stars": 5,
+		"body": "This gem is great",
+		"author": "HenryP@codingtemple.com"
+	}],
+	"soldOut": false,
+	"canPurchase": true,
+	"images": [{
+		"full": "Images/gem-10.gif"
+	}]
+}]

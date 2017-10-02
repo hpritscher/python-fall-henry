@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice Form</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/exampleform.js"></script>
+
+  </head>
+  <body ng-app="user">
+    <div>
+      <div class="form">
+        <h2>Create New User</h2>
+       <form name="userForm" ng-controller="userController" ng-submit="addUser(i)">
+      <div class="form-group">
+        <label for="userName" class="formlabel">User Name</label>
+        <input type="text" name="userName" placeholder="Create User Name" ng-model="newUser.UserName">
+      </div>
+      <div>
+        <label for="password" class="formlabel">Password</label>
+        <input type="password" name="password" ng-model="newUser.password">
+      </div>
+        <input type="submit" class="btn btn-default" value="Add User">
+      </div>
+    </form>
+    </div>
+
+  </body>
+</html>

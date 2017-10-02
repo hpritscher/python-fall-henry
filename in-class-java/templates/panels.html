@@ -1,0 +1,40 @@
+
+<ul class="nav nav-pills">
+  <li class="nav-item" ng-class="{active:tab===1}">
+    <a ng-click="selectTab(1)" href> Description</a>
+  </li>
+  <li class="nav-item" ng-class="{active:tab===2}">
+    <a ng-click="selectTab(2)" href> Specification</a>
+  </li>
+  <li class="nav-item" ng-class="{active:tab===3}">
+    <a ng-click="selectTab(3)" href> Reviews</a>
+  </li>
+ </ul>
+
+ <div class="panel" ng-show="tab===1">
+   <h4> Description</h4>
+   <p>{{i.description}}</p>
+ </div>
+ <div class="panel" ng-show="tab===2">
+   <h4> Specification</h4>
+   <blockquote>In development</blockquote>
+ </div>
+ <div class="panel" ng-show="tab===3">
+   <h4> Review</h4>
+   <blockquote ng-repeat="reviews in i.reviews">
+    <b> {{reviews.stars}}</b>
+    <p>{{reviews.body}}</p>
+    <img ng-init="avatar= Avatar.generate(review.author)" ng-src="{{avatar}}"/>
+    <cite>{{reviews.author}}</cite>
+   </blockquote>
+   <blockquote ng-repeat="newStuff in info">
+     <b> {{newStuff.stars}}</b>
+     <p>{{newStuff.body}}</p>
+     <cite>{{newStuff.author}}</cite>
+     <img ng-init="avatar= Avatar.generate(review.author)" ng-src="{{avatar}}"/>
+   </blockquote>
+   <h4>Write a Review</h4>
+   <form name="reviewForm" store-reviews ng-submit="reviewForm.$valid && addReview(i)" novalidate>
+
+ </form>
+ </div>

@@ -1,0 +1,10 @@
+addbutton {
+  display: inline;
+  max-height: 30px;
+  max-width: 50px;
+}
+button {
+  align-self: center;
+  max-height: 30px;
+  max-width: 200px;
+}as
